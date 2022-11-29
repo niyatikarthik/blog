@@ -1,0 +1,36 @@
+---
+title: 'Github'
+author: 'Niyati'
+date: '22.11.22'
+categories: [R]
+---
+
+# What is Github?
+Github is a awesome software, where you can post codes ect. but also work on projects with anyone from anywhere.If you want to know how it works by using R language in 14 easy steps then stay tuned...
+
+# Intro
+So before we go to github, there is a programming language called R, which we are going to use to make a post and upload it on Github
+
+# Steps
+Here are the steps of making your code
+
+1. Create a folder (mkdir NAME) and then use (cd NAME) to change your directory.
+2. Use (git init) to make a git folder in your directory
+3.Create a new file using (touch NAME.txt) and using (vim name.txt) write anything   you want to put in your Git repo
+4.Now go to the Github website and create a repo with a NAME and make it public
+5.We need SSH keys so we will generate our key using (ssh-keygen -t ed25519)
+If you want to know more about ssh keys and what it is press to this link:
+
+https://docs.google.com/presentation/d/1GGy9Ek8gWTeadDvLdBfFrSc7PkGY2nadr8dMAEIRc9c/edit#slide=id.g1f87997393_0_782
+
+6.After that we leave our current directory (cd..)
+7.Then to read our key we use (cat ~/.ssh/id_ed25519.pub) 
+8.Copy the key and paste it under New SSH key in SSH and GPG key in GitHub 
+ settings give it a NAME and create it.
+9.Now go back to your directory (cd cloud/project/name)
+10.Then use the command (git add.) to add a git file in your empty git init
+ folder
+11.Use this command(git remote add origin git@github.com:niyatikarthik/NKKKKK.git) to add this repo in your directory
+12.Next use (git config --global user.email "your_email@example.com) to confirm  your Email address
+13.Use (git commit -m NAME) to commit a message for your uploaded files
+14. And finally to upload your directory to github use command( git push origin  master).If using this does not work use (git push origin master -f) to forcefully push your files to  your github repo.

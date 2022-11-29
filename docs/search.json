@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "posts/NK/index.html#what-happens-in-our-body-while-doing-sports",
+    "href": "posts/NK/index.html#what-happens-in-our-body-while-doing-sports",
+    "title": "How does Sports help boost up your Immunity",
+    "section": "What happens in our body while doing sports?",
+    "text": "What happens in our body while doing sports?\nWhen you exercise, more immune cells are made in the white blood cells, which protects against inflammation and pathogens. If the body exerts itself, it is under a kind of stress, like with an illness. Meanwhile, the body reacts as if it were infected by pathogens. Although it is not really affected, the immune cells clean up any foreign particles or non-functioning cells. After exercise, the number of immune cells in the blood decreases again. However, they work better the next time they are needed. When you train, you strengthen your immune system at the same time."
+  },
+  {
+    "objectID": "posts/NK/index.html#so-what-influence-does-sport-have-on-our-immune-system",
+    "href": "posts/NK/index.html#so-what-influence-does-sport-have-on-our-immune-system",
+    "title": "How does Sports help boost up your Immunity",
+    "section": "So what influence does sport have on our immune system?",
+    "text": "So what influence does sport have on our immune system?\n-strengthens the immune system -increases the number of immune cells in the white blood cells during exercise -Improvement, however, only with regular use"
+  },
+  {
+    "objectID": "posts/NK/index.html#sport-knows-borders",
+    "href": "posts/NK/index.html#sport-knows-borders",
+    "title": "How does Sports help boost up your Immunity",
+    "section": "Sport knows borders",
+    "text": "Sport knows borders\nNevertheless, we must not overstrain our immune system. When we feel unwell (e.g. we are sick) we must not put additional strain on our body, as it not only has to cope with the illness, but also with the strain during sport."
+  },
+  {
+    "objectID": "posts/NK/index.html#too-much-sport-is-also-not-good",
+    "href": "posts/NK/index.html#too-much-sport-is-also-not-good",
+    "title": "How does Sports help boost up your Immunity",
+    "section": "Too much sport is also not good",
+    "text": "Too much sport is also not good\nBy doing too much sport, it can also harm the body. Because many factors are stimulated, which are there for the defense, but at the same time strongly stress the body. The immune system is overstimulated."
+  },
+  {
+    "objectID": "posts/NK/index.html#summary",
+    "href": "posts/NK/index.html#summary",
+    "title": "How does Sports help boost up your Immunity",
+    "section": "Summary",
+    "text": "Summary\nYou should to sports regularly but not too much to strain your body"
+  },
+  {
+    "objectID": "posts/git/index.html",
+    "href": "posts/git/index.html",
+    "title": "Github",
+    "section": "",
+    "text": "Intro\nSo before we go to github, there is a programming language called R, which we are going to use to make a post and upload it on Github\n\n\nSteps\nHere are the steps of making your code\n\nCreate a folder (mkdir NAME) and then use (cd NAME) to change your directory.\nUse (git init) to make a git folder in your directory 3.Create a new file using (touch NAME.txt) and using (vim name.txt) write anything you want to put in your Git repo 4.Now go to the Github website and create a repo with a NAME and make it public 5.We need SSH keys so we will generate our key using (ssh-keygen -t ed25519) If you want to know more about ssh keys and what it is press to this link:\n\nhttps://docs.google.com/presentation/d/1GGy9Ek8gWTeadDvLdBfFrSc7PkGY2nadr8dMAEIRc9c/edit#slide=id.g1f87997393_0_782\n6.After that we leave our current directory (cd..) 7.Then to read our key we use (cat ~/.ssh/id_ed25519.pub) 8.Copy the key and paste it under New SSH key in SSH and GPG key in GitHub settings give it a NAME and create it. 9.Now go back to your directory (cd cloud/project/name) 10.Then use the command (git add.) to add a git file in your empty git init folder 11.Use this command(git remote add origin git@github.com:niyatikarthik/NKKKKK.git) to add this repo in your directory 12.Next use (git config –global user.email “your_email@example.com) to confirm your Email address 13.Use (git commit -m NAME) to commit a message for your uploaded files 14. And finally to upload your directory to github use command( git push origin master).If using this does not work use (git push origin master -f) to forcefully push your files to your github repo."
+  },
+  {
+    "objectID": "posts/keys/keys.html",
+    "href": "posts/keys/keys.html",
+    "title": "Public & Private keys",
+    "section": "",
+    "text": "What is a Public / Private Key?\nPublic keys and private keys are the working parts of Public-key cryptography. Together, they encrypt and decrypt data that resides or moves in a network. The public key is public to all and can be shared to anyone, while the private key is only known to the owner. In order for a client to establish a secure connection with a server.\nPhoto :https://www.twilio.com/blog/what-is-public-key-cryptography\n*(is a cryptographic system in which keys come in pairs. The transformation performed by one of the keys can only be undone with the other key. One key (the private key) is kept secret while the other is made public.)\n\n\nWhat do they do?\nA public key is also used to encrypt a message or check the *legitimacy of a digital signature. It is accompanied by a corresponding private key, which is known only to its owner. Private keys are used to decrypt messages that were created with the corresponding public key, or to create signatures. In other words, a public key locks up data from unauthorized use, while a private key is used to unlock it.\n*legitimacy:(conformity to the law or to rules)\n\n\nHow are they generated?\nPublic keys are created using an asymmetric algorithm, which pairs the public key with an associated private key, one for encryption and the other for decryption. The most common algorithms used to generate public keys are Rivest-Shamir-Adleman, elliptic curve cryptography and Digital Signature Algorithm.\n\n\nCan you hack them?\nHere are some comments of people answering this question\n-Nothing prevents a hacker from sniffing the public key, because it is public. -They cannot decrypt data received over SSL because the actual AES encryption key used to encrypt said data is, itself, encrypted by both participants’ private keys during the Diffie-Hellman exchange. D-H is what allows two agents to use a public space to establish a shared secret. When implemented properly, it is unbreakable. -A public key can be sniffed because it is public. -If your “public” is actually the private key, you have a serious design problem in your protocol. Private keys need to be kept in secret. If you encrypt the data with the private key, there is no problem in this case, because you are only signing it and anyone who knows your public key is able (must be) to check the validity of it (of course you should follow the best practices when signing something, avoid schoolbook modes, etc). -Now for session keys, depeding on the key exchange method, you should google about some techniques for detecting session hijacking and/or man-in-the-middle attacks. There are also some modified versions of\nDiffie-Hellman-Merkle that could mitigate those attacks, google about.\n\n\nThank you.\nI hope this has helped you in understanding the difference between public and private keys. Thank you."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "niyati",
+    "section": "",
+    "text": "R\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2022\n\n\nNiyati\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nInvalid Date\n\n\nNiyati\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nR\n\n\n\n\n\n\n\n\n\n\n\nAug 11, 2022\n\n\nNiyati\n\n\n\n\n\n\nNo matching items"
+  }
+]

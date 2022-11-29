@@ -1,0 +1,36 @@
+---
+title: 'How does Sports help boost up your Immunity'
+author: 'Niyati'
+date: '8.11.22'
+categories: [R]
+---
+
+### Many people say, that if you do exercises or do any kinds of activity your Immunity gets stronger. But why is it so?
+
+![](https://34bafb1c73d04f309dd9630e327406fe.app.rstudio.cloud/file_show?path=%2Fcloud%2Fproject%2Fniyati%2Fggg.jpg)
+
+
+
+## What happens in our body while doing sports?
+
+When you exercise, more immune cells are made in the white blood cells, which protects against inflammation and pathogens. If the body exerts itself, it is under a kind of stress, like with an illness. Meanwhile, the body reacts as if it were infected by pathogens. Although it is not really affected, the immune cells clean up any foreign particles or non-functioning cells. After exercise, the number of immune cells in the blood decreases again. However, they work better the next time they are needed. When you train, you strengthen your immune system at the same time.
+
+
+## So what influence does sport have on our immune system? 
+
+-strengthens the immune system
+-increases the number of immune cells in the white blood cells during exercise
+-Improvement, however, only with regular use
+
+## Sport knows borders 
+ Nevertheless, we must not overstrain our immune system. When we feel unwell (e.g. we are sick) we must not put additional strain on our body, as it not only has to cope with the illness, but also with the strain during sport.
+
+## Too much sport is also not good 
+ 
+ By doing too much sport, it can also harm the body. Because many factors are stimulated, which are there for the defense, but at the same time strongly stress the body. The immune system is overstimulated.
+ 
+## Summary
+
+ You should to sports regularly but not too much to strain your body
+ 
+
